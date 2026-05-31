@@ -1,0 +1,5 @@
+# OMC state
+.omc/
+
+# OS files
+.DS_Store
