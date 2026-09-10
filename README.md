@@ -164,15 +164,19 @@ Each factor in `auto-因子提取` includes: formula, academic reference, expect
 
 ### Run Full Pipeline
 
+One-shot execution of the end-to-end pipeline (G001–G006) via the integrated workflow:
+
 ```bash
-# Clone both repos
-git clone https://github.com/zhangpelf/ashare-factor-workflow.git
-git clone https://github.com/zhangpelf/ashare-factor-mining.git
+# Unified pipeline command (automated G001-G006 with ARIS review)
+/factor-run 动量反转因子
+/factor-run 动量反转因子 --method XGBoost --stocks 100
+/factor-run "基于机器学习的高频因子" --method XGBoost LightGBM MLP
+```
 
-# The skills reference hardcoded paths — configure BASE_DIR in each skill
-# or symlink the repos to the expected paths
+Or invoke the orchestrator skill directly:
 
-# Inside Claude Code, invoke:
+```bash
+# Inside Claude Code or Antigravity, invoke:
 /auto-因子提取 "[path-to-factors-repo]"
 ```
 
