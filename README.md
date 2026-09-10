@@ -5,7 +5,12 @@
 [![GitHub](https://img.shields.io/github/license/zhangpelf/ashare-factor-workflow)](https://github.com/zhangpelf/ashare-factor-workflow/blob/main/LICENSE)
 ![GitHub stars](https://img.shields.io/github/stars/zhangpelf/ashare-factor-workflow)
 
-**Companion repo**: [ashare-factor-mining](https://github.com/zhangpelf/ashare-factor-mining) — Production-grade Python factor computation, AST compiler, 4-layer cache engine, and visualization pipeline.
+> [!IMPORTANT]
+> **项目已合并通知 (Repository Merged)**  
+> 本仓库已作为工作流与技能编排层，完整合并至主工程仓库：👉 **[ashare-factor-agent-workflow](https://github.com/zhangpelf/ashare-factor-agent-workflow)**。  
+> 底层高性能计算引擎、受限 DSL、4 层持久化缓存、Double DQN 强化学习选股与全套 Claude Code 技能包现已实现一体化开箱即用，推荐前往主仓库获取最新全中文文档与代码。
+
+**Primary repo**: [ashare-factor-agent-workflow](https://github.com/zhangpelf/ashare-factor-agent-workflow) — A 股量化因子挖掘与 Agent 自动化研究流水线（一体化主工程）。
 
 ---
 
